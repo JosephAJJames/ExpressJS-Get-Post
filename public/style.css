@@ -1,0 +1,32 @@
+body {
+    background-color: lightcoral;
+}
+
+#container {
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    margin-top: 20%;
+}
+
+h1 {
+    display: block;
+}
+
+#form-container,
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container {
+    width: 30%;
+    margin: auto;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
